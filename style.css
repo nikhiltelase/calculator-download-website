@@ -2,7 +2,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+
     background-color: #000;
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -37,6 +37,10 @@ body {
     font-size: 1.2em;
     margin-bottom: 30px;
 }
+.links{
+    display: flex;
+    justify-content: space-between;
+}
 
 .download-button {
     display: inline-block;
@@ -45,11 +49,14 @@ body {
     color: #fff;
     background-color: #f09a36;
     border: none;
+    margin: 10px;
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s ease, transform 0.1s ease, box-shadow 0.3s ease;
 }
-
+.link{
+    background-color: black;
+}
 .download-button:hover {
     background-color: #f0b050;
 }
